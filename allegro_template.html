@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <style media="screen">
-      #main_card {
+      #main_card_div {
         box-shadow: 32px 16px 32px 0 rgba(0,0,0,0.3);
         transition: 0.3s;
         margin: auto;
@@ -11,22 +11,30 @@
         font-family: arial;
         background-color: white;
       }
-      #title_bar {
+      #title_bar_div {
         margin: auto;
         width: 98%;
         background-color: #b30000;
         text-align:center;
       }
+      #general_list_div {
+        list-style-type: none;
+        text-align:center;
+        font-size: 1.4em
+      }
+      #general_list_ul {
+        list-style-type: none;
+      }
     </style>
     <title></title>
   </head>
   <body>
-    <div id="main_card">
-      <div id="title_bar">
+    <div id="main_card_div">
+      <div id="title_bar_div">
         <h1 style="color: white;"><strong>Chrysler Grand Voyager Limited AWD 3.3 V6</strong></h1>
       </div>
-      <div style="background-color:white;">
-        <ul style="list-style-type:none; text-align:center; font-size: 1.4em">
+      <div id="general_list_div">
+        <ul id="general_list_ul">
           <li>Skrzynia automatyczna</li>
           <li>Lipiec 2004</li>
           <li>Wersja europejska z fabryczną chłodnicą skrzyni biegów</li>
