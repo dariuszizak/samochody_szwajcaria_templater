@@ -2,7 +2,7 @@
 
 ## Aby odnaleźć interesujący Cię kod:
 
-Nieco wyżej znajdziesz przycisk ####Branch.
+Nieco wyżej znajdziesz przycisk **Branch**.
 Po przełączeniu się na właściwy, wyświetlą się dalsze instrukcje.
 
 1. master - W3CSS.
